@@ -46,7 +46,7 @@ our openstack plugin adds these metadata keys:
 `  jenkins-instance
    jenkins-template-name`
 
-If provided, only consider an instance for deletion if contains
+If provided, only consider an instance for deletion if it contains
 matching metadata keys.
 
 ## Usage
