@@ -42,8 +42,10 @@ Some cloud plugins provide metadata that identifies an instance
 as a dynamic slave for jenkins.  This is another way to prevent
 the accidental deletion of long-running pet VMs.  For instance, 
 our openstack plugin adds these metadata keys:
-  * jenkins-instance
-  * jenkins-template-name
+
+    * jenkins-instance
+    * jenkins-template-name
+
 If provided, only consider an instance for deletion if contains
 matching metadata keys.
 
