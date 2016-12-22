@@ -1,0 +1,4 @@
+zombie-slaves.py
+jenkins
+configparser
+python-novaclient
