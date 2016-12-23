@@ -1,4 +1,4 @@
 python-jenkins==0.4.13
 configparser==3.5.0
 python-novaclient==7.0.0
-pyOpenSSL>=16.0.0
+pyOpenSSL>0.13.1
